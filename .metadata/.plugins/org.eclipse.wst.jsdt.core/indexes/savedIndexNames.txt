@@ -1,0 +1,4 @@
+INDEX VERSION 1.4+D:\Learn\S5\COMP3095-WebApp\Assignments\COMP3095_CURLY_BOYS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+639562594.index
+3758181474.index
+2350011640.index

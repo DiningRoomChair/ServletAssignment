@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+D:\Learn\S5\COMP3095-WebApp\Assignments\COMP3095_CURLY_BOYS\.metadata\.plugins\org.eclipse.jdt.core
+618344364.index
+1213288927.index
+1960566762.index
+2686249852.index
+545737141.index
+528210618.index
+357428535.index
+4171178217.index
+2544314278.index
+3246765862.index
+2056452808.index
+7117493.index
+639562594.index
+4224689537.index
+3655955360.index
+4271782450.index
+1369001832.index
+2473417176.index
+3057871048.index
+1915448612.index

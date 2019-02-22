@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+D:\Learn\S5\COMP3095-WebApp\Assignments\COMP3095_CURLY_BOYS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3256695817.index
+\COMP3095_CURLY_BOYS\src

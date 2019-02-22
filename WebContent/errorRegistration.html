@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Error Registration Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+  <body>
+  <div class="container" style="width: 50%;">
+  <h1 style="text-align:center">User Registration Form</h1>
+  <h4 style="color:red;">Error Registration. Check the Following</h4>
+  <h5 style="color:red;">-Password and Password Confirm must Match</h5>
+   <h5 style="color:red;">-Email address must be valid and registered</h5>
+  <h5 style="color:red;">-password must have 1 at least one upper-case and special character</h5> 
+  <h5 style="color:red;">-Name and Last Name must be only letters</h5>
+  
+  	<form method="post" action="RegistrationServlet" >
+    <label>First Name</label>
+    <input type="text" class="form-control" name="FirstName">
+    <label>Last Name</label>
+    <input type="text" class="form-control" name="LastName" placeholder="surname">
+    <label>Address</label>
+    <input type="text" class="form-control" name="Address" placeholder="address">
+  		
+    <label>Email address</label>
+    <input type="email" class="form-control" name="Email"placeholder="Enter email">
+    <label>Password</label>
+    <input type="password" class="form-control" name="Password" placeholder="Password">
+    <label>Confirm Password</label>
+    <input type="password" class="form-control" name="ConfirmPassword" placeholder="Confirm Password">
+  	<input type="checkbox" name="checkbox" > I Agree with the <a href="terms.txt" >Terms & Conditions</a>
+  	<button type="submit" class="btn btn-primary">Submit</button>
+  	<button type="reset" class="btn btn-danger" name="Cancel" formaction="ResetRegistrationServelt">Cancel</button>
+  	<a href="forgotPasswordForm.html">Forgot Your Password?</a>
+  </form>
+  </div>
+ 
+ 
+ 
+ 
+ 
+ 
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
